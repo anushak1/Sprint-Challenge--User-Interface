@@ -34,9 +34,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML allows anyone to read your code and understand the hierarchy you have established. Without semantic HTML, every software engineer would essentially set their own standards and one tag could define a multitude of things versus having one definition. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+With display:block, elements will always appear in a new line versus being able to manipulate its surroundings like display:inline. Top and bottom CSS paddings are not respected in display.inline versus in display.block, we set our own width and height parameters. 
+
 3. What are the 4 areas of the box model?
+
+The content edge, padding edge, border edge, and margin edge are the four areas of the box model .
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
